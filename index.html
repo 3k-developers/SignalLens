@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for SignalLens by 3kdevelopers.">
+  <title>Privacy Policy | SignalLens</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --page: #f7f9fc;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #536075;
+      --accent: #075dca;
+      --border: #dce3ef;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --page: #10131a;
+        --surface: #191e29;
+        --text: #eef2fa;
+        --muted: #b4bfd0;
+        --accent: #81b5ff;
+        --border: #303949;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(100% - 32px, 800px);
+      margin: 48px auto;
+      padding: clamp(24px, 5vw, 48px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgb(0 0 0 / 8%);
+    }
+
+    h1, h2 { line-height: 1.2; }
+    h1 { margin: 0; font-size: clamp(2rem, 6vw, 3rem); }
+    h2 { margin: 2.25rem 0 .75rem; font-size: 1.3rem; }
+    p, ul { margin: .75rem 0; }
+    ul { padding-left: 1.25rem; }
+    li + li { margin-top: .45rem; }
+    a { color: var(--accent); }
+    .summary {
+      margin-top: 1.5rem;
+      padding: 1rem 1.25rem;
+      border-left: 4px solid var(--accent);
+      background: color-mix(in srgb, var(--accent) 8%, transparent);
+      border-radius: 0 10px 10px 0;
+    }
+    .meta { color: var(--muted); }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy for SignalLens</h1>
+      <p class="meta">Effective date: October 18, 2026 &middot; Developer: 3kdevelopers</p>
+    </header>
+
+    <p class="summary">
+      SignalLens analyzes nearby Wi-Fi networks on your device. Wi-Fi scan results, preferences,
+      and diagnostic results remain on your device unless you choose to export or share them.
+      The app uses Firebase Analytics for limited app-use and device telemetry.
+    </p>
+
+    <h2>Information handled on your device</h2>
+    <p>SignalLens may access or create the following information locally to provide its features:</p>
+    <ul>
+      <li>Nearby Wi-Fi details, including network names, BSSIDs, signal strength, channel, and security information.</li>
+      <li>Connection details and locally discovered network-device information shown by the diagnostics tools.</li>
+      <li>App preferences, scan history, and diagnostic results.</li>
+    </ul>
+    <p>
+      This information is stored on your device. It is not sent to 3kdevelopers or Firebase as
+      part of Wi-Fi scanning or diagnostics. Device backups may include app data if you enable
+      Android backup for your device.
+    </p>
+
+    <h2>Firebase Analytics</h2>
+    <p>
+      SignalLens uses Google Firebase Analytics to understand aggregate app usage and improve the
+      app. Firebase may collect and process information such as app interactions, app version,
+      device and operating-system information, an app-instance identifier, approximate location
+      derived from IP address, and IP address. SignalLens does not send Wi-Fi scan results,
+      diagnostic output, or exported files to Firebase Analytics.
+    </p>
+    <p>
+      Google processes this information under the
+      <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+    </p>
+
+    <h2>Network diagnostics and exports</h2>
+    <p>
+      Diagnostics run only when you start them. Ping, DNS lookup, and local-device discovery send
+      requests to the target, local network, or DNS resolver you select or are connected to.
+      Those services and networks may process the request information under their own policies.
+    </p>
+    <p>
+      Exports are created only when you choose to export or save a CSV file. You control the
+      destination and any sharing of that file.
+    </p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Location and Nearby devices:</strong> used by Android to allow nearby Wi-Fi scanning and local-network diagnostics.</li>
+      <li><strong>Wi-Fi and network access:</strong> used to read Wi-Fi connection information and perform features you request.</li>
+      <li><strong>Internet access:</strong> used for Firebase Analytics and diagnostics you initiate.</li>
+    </ul>
+    <p>You can manage permissions in your Android device settings. Some features will not work without the relevant permission.</p>
+
+    <h2>Data sharing and retention</h2>
+    <p>
+      3kdevelopers does not sell Wi-Fi scan data or diagnostic results, does not provide accounts,
+      and does not use advertising SDKs. Analytics data is processed by Google Firebase as described
+      above. Local app data remains until you clear it, uninstall the app, or remove it through
+      Android settings; Google retains Analytics data according to its applicable policies.
+    </p>
+
+    <h2>Children</h2>
+    <p>SignalLens is not directed to children. We do not knowingly collect personal information from children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      We may update this policy when the app or its data practices change. The effective date at
+      the top of this page identifies the latest revision.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For privacy questions, contact 3kdevelopers through the
+      <a href="https://play.google.com/store/apps/dev?id=6807300839110548631">3kdevelopers Google Play developer page</a>.
+    </p>
+
+    <footer>SignalLens &middot; 3kdevelopers</footer>
+  </main>
+</body>
+</html>
